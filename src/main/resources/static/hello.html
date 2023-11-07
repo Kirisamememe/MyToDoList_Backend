@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+　<form action="/hello3" method="post">
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+    <label>
+        <input type="text" name="name" placeholder="お名前を入力してください">
+    </label>
+    <input type="submit" value="実行">
+</form>
+</body>
+</html>
